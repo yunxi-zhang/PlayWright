@@ -1,11 +1,54 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+# Playwright
+playwright-report/
+test-results/
+.playwright/
+playwright/.cache/
 
-# auto generated folders
-issuer
-holder
-verifier
-.DS_Store
+# Behave
+reports/
+behave-report/
+*.feature.result
+allure-results/
+allure-report/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+ENV/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.log
+
+# Node (if using Playwright JS/TS alongside)
 node_modules/
-/test-results/
-/playwright-report/
-/playwright/.cache/
+package-lock.json
+yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
